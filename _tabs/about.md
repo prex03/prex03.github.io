@@ -1,10 +1,10 @@
 ---
-# the default layout is 'page'
-icon: fas fa-info-circle
+title: About
+icon: fas fa-user
 order: 4
 ---
 
-👋 Hello, and welcome! I'm Prerak Singh, an undergraduate student pursuing a B.Tech in Electrical Engineering at IIT Delhi, currently in my second year. With a CGPA of 9.15 and a consistent academic track record, I’ve always found myself drawn to the intersection of mathematics, logic, and technology. This natural alignment has evolved into a deep interest in programming, systems research, and applied machine learning.
+Hello, and welcome! I'm Prerak Singh, an undergraduate student pursuing a B.Tech in Electrical Engineering at IIT Delhi, currently in my second year. With a CGPA of 9.15 and a consistent academic track record, I’ve always found myself drawn to the intersection of mathematics, logic, and technology. This natural alignment has evolved into a deep interest in programming, systems research, and applied machine learning.
 
 This blog is my attempt to build a living archive of everything I explore in the world of software. It is a space where I reflect on concepts, experiment with ideas, and document the thought process behind what I build. I believe that understanding the reasons behind how a system works is just as important as knowing how to implement it. Through this platform, I aim to grow not just as a programmer, but as a thinker and engineer.
 
