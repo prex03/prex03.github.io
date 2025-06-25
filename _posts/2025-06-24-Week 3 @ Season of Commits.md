@@ -11,13 +11,13 @@ This week in my Season of Commits journey with FOSS United, I continued refining
 
 What I Worked On –
 
-1. Graph Edge Backend with std::variant
+**1. Graph Edge Backend with std::variant**
 
 Just like nodes, edges in the C++ backend previously relied on PyObject* to store values. This week, I overhauled that design to use std::variant<std::monostate, int, double, std::string>, allowing edges to natively support common data types without falling back to Python overhead. This simplifies memory management, improves type safety, and boosts performance for most use cases.
 
 The variant system also opens doors for further optimizations and advanced algorithms that depend on numerical edge weights.
 
-2. C++ Implementation of Prim’s Algorithm
+**2. C++ Implementation of Prim’s Algorithm**
 
 I implemented Prim’s algorithm for computing the Minimum Spanning Tree (MST) directly in C++. It operates on the adjacency list backend and benefits from the variant-based edge representation. This required careful handling of edge comparisons, priority queue operations, and efficient graph traversal logic, all in a way that remains interoperable with Python code.
 
