@@ -7,7 +7,7 @@ tags: [Week 7]
 
 This week’s focus was on pushing the LLVM backend for Bubble Sort further by adding optimization passes, generating highly efficient machine code via llvmlite, and benchmarking the results against Python and C++ implementations.
 
-1. Optimized LLVM Bubble Sort with llvmlite
+**1. Optimized LLVM Bubble Sort with llvmlite**
 
 After successfully integrating Bubble Sort into the LLVM backend, the next step was optimization. Using llvmlite’s pass manager, I enabled:
 
@@ -19,7 +19,7 @@ High-level optimizations (O3) - including aggressive inlining and branch predict
 
 The result is a Bubble Sort implementation that runs hundreds of times faster than the interpreted Python version, and significantly outperforms even the C++ backend.
 
-2. Benchmarking Results
+**2. Benchmarking Results**
 
 I benchmarked the optimized LLVM Bubble Sort against Python and C++ backends across increasing array sizes. The results are summarized below:
 
@@ -35,7 +35,7 @@ I benchmarked the optimized LLVM Bubble Sort against Python and C++ backends acr
 
 Even at modest input sizes, LLVM achieves >600x speedup compared to Python. The gains increase with larger arrays, confirming that LLVM optimizations scale well.
 
-3. Why LLVM Optimizations Matter
+**3. Why LLVM Optimizations Matter**
 
 While Bubble Sort is inherently quadratic, LLVM optimizations allow it to:
 
