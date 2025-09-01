@@ -23,7 +23,6 @@ The result is a Bubble Sort implementation that runs hundreds of times faster th
 
 I benchmarked the optimized LLVM Bubble Sort against Python and C++ backends across increasing array sizes. The results are summarized below:
 
----
 |    |   Array_Size |   Python_Time_s |   CPP_Time_s |   LLVM_Time_s |   CPP_Speedup |   LLVM_Speedup |
 |----|--------------|-----------------|--------------|---------------|---------------|----------------|
 |  0 |          100 |        0.001673 |     0.001551 |      2.5e-05  |          1.08 |          66.05 |
@@ -33,7 +32,7 @@ I benchmarked the optimized LLVM Bubble Sort against Python and C++ backends acr
 |  4 |         3000 |        1.62648  |     1.57613  |      0.002563 |          1.03 |         634.69 |
 |  5 |         4000 |        2.92309  |     2.8723   |      0.004335 |          1.02 |         674.22 |
 |  6 |         5000 |        4.5532   |     4.45938  |      0.006694 |          1.02 |         680.2  |
----
+
 Even at modest input sizes, LLVM achieves >600x speedup compared to Python. The gains increase with larger arrays, confirming that LLVM optimizations scale well.
 
 3. Why LLVM Optimizations Matter
