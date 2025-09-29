@@ -2,7 +2,7 @@
 title: Optimizing PyDataStructs - LLVM Backend for Adjacency List Graphs
 date: 2025-09-29 21:30:00 +0530
 categories: [Season of Commits]
-tags: [Week 9]
+tags: [Week 8]
 ---
 
 This week’s work revolved around extending the LLVM backend in PyDataStructs to support adjacency list graphs. The focus was on bridging our existing C++ graph backend with llvmlite, allowing graph operations to be compiled into efficient machine code while preserving the same Python-facing API.
