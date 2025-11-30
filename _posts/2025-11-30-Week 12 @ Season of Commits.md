@@ -2,7 +2,7 @@
 title: Season of Commits Summary
 date: 2025-11-30 17:27:10 +0530
 categories: [Season of Commits]
-tags: [Summary]
+tags: [Week 12]
 ---
 
 Over the past twelve weeks, my Season of Commits journey with FOSS United has been dedicated to one mission: transforming PyDataStructs into a high-performance, multi-backend data structures and algorithms library.
